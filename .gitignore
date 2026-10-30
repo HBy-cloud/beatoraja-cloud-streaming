@@ -1,0 +1,46 @@
+# Java / Gradle / IDE
+.gradle/
+build/
+out/
+target/
+*.class
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+rclone.conf
+**/rclone.conf
+credentials.json
+client_secret*.json
+*token*.json
+*.pem
+*.key
+
+# beatoraja local databases (do not commit personal play data)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# VFS cache, logs and generated reports
+bms_vfs_cache/
+cache/
+.cache/
+logs/
+reports/
+*.log
+
+# Local-only prewarm lists and temporary files
+warm-list.local.txt
+*.tmp
+*.bak
